@@ -1,0 +1,8 @@
+# Dependencias principales del proyecto Cold Wallet
+# Para instalarlo solo es necesario estar en la misma carpeta dentro de la línea de comandos y meter el siguiente comando: pip install -r requirements.txt
+cryptography       # AES-GCM + Argon2id
+pynacl             # Ed25519 firmas/verificación
+argon2-cffi        # KDF Argon2id
+pycryptodomex      # Keccak-256 para derivar dirección
+
+# Fin del archivo
